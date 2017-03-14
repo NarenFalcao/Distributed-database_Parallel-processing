@@ -1,5 +1,9 @@
 # Distributed-database_Parallel-processing
 
+The project is about distributed database system. How the data can be divided into fragments and stored in different geological area and how parallel processing can be implemented on operations like sort,joins, with multithreading over the different partition to reduce the response time. The project is divided into set of tasks.
+
+Database details
+
 The rating.dat file contains 10 million ratings and 100,000 tag applications applied to 10,000 movies by
 72,000 users. Each line of this file represents one rating of one movie by one user, and has the following
 format:
@@ -65,6 +69,10 @@ RangeRatingsPart3,23,459,3.5
 RoundRobinRatingsPart4,31,221,0
 
 Task 3:
+
+A Python function ParallelSort() that takes as input:(1) InputTable stored in  a PostgreSQL database, (2) SortingColumnName the name of the column used to order the tuples by.  ParallelSort() then sorts all tuples (using five parallelized threads) and stores the sorted tuples for in a table named  OutputTable. The output table contains the tuples in sorted ascending order.
+
+A Python function ParallelJoin()  that takes as input:(1) InputTable1 and InputTable2 stored in  a PostgreSQL database, (2) SortingColumnName1 and SortingColumnName2 that represent the join key in each input table respectively. .  ParallelJoin() then joins the table (using five parallelized threads) and stores the joined tuples for in a table named  OutputTable. Output table should be similar to the schema of both the table combined
 
 
 
