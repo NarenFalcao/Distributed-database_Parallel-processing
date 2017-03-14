@@ -47,6 +47,12 @@ fragment (of the partitioned ratings table) based upon the Rating value.
 A Python function Delete Partitions() that deletes all generated partitions as well as
 any metadata related to the partitioning scheme.
 
+Steps to run:
+
+Download the ratings.dat, Interface.py, AssignmentTester.py.
+
+Run AssignmentTester.py
+
 Task 2:
 
 RangeQuery() – A Python function RangeQuery that takes as input: (1) Ratings table
@@ -68,6 +74,12 @@ Example
 RangeRatingsPart3,23,459,3.5
 RoundRobinRatingsPart4,31,221,0
 
+Steps to run:
+
+Download the ratings.dat, Assignment1.py, Assignment2_Interface.py, tester.py.
+
+Run tester.py
+
 Task 3:
 
 A Python function ParallelSort() that takes as input:(1) InputTable stored in  a PostgreSQL database, (2) SortingColumnName the name of the column used to order the tuples by.  ParallelSort() then sorts all tuples (using five parallelized threads) and stores the sorted tuples for in a table named  OutputTable. The output table contains the tuples in sorted ascending order.
@@ -76,6 +88,10 @@ A Python function ParallelJoin()  that takes as input:(1) InputTable1 and InputT
 
 
 
+Steps to run:
 
+Download the ratings.dat, movie.dat, Assignment3_Interface.py, tester.py.
+
+Run tester.py
 
 
