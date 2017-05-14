@@ -95,3 +95,4 @@ Download the ratings.dat, movie.dat, Assignment3_Interface.py, tester.py.
 Run tester.py
 
 
+Task 5: •	We use MongoDB to perform textual and spatial searching on the Yelp Dataset. We find Business based on city and Business based on location
